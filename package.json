@@ -1,0 +1,31 @@
+{
+  "name": "cru-parser-cli",
+  "version": "0.0.0",
+  "description": "Offer an interface for a parser implemented in Javascript for reading and processing CRU. This format define weekly courses timeslots for all the available rooms at the Sealand Central University (SRU).",
+  "main": "caporalCLI.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "contributors": [
+    "Arthur Levasseur",
+    "Mathilde Coyen",
+    "Nathan Thibault",
+    "Sun sun"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "canvas": "^2.8.0",
+    "nodemailer": "^6.7.2",
+    "vega": "^5.21.0",
+    "vega-lite": "^5.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.utt.fr/thibauln/gl02_fenetreonze.git"
+  }
+}
